@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace tabuleiro
 {
     class Peca
@@ -18,5 +15,11 @@ namespace tabuleiro
             this.tab = tab;
             this.qteMovimentos = 0;
         }
+
+        public void incrementarMovimento()
+        {
+            qteMovimentos++;
+        }
+            
     }
 }
